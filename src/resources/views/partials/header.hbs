@@ -1,17 +1,27 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">F8 Education</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <div class="container">
+          <a class="navbar-brand" href="/">F8 Education</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="data:image/png;base64,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" alt="***" style="width: 28px; height: 28px; border-radius: 50%; margin-right: 4px">
+                    Hùng Trần
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/courses/create">Đăng khóa học</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/me/stored/courses">Khóa học của tôi</a>
+                    <a class="dropdown-item" href="/me/stored/news">Bài viết của tôi</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">Đăng xuất</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+    </div>
 </nav>
